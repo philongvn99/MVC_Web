@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background-color: rgb(247, 247, 247);
+}
+
+/*============= BANNER =============*/
+.banner {
+    align-content: center;
+    border-width: 5px;
+    background-image: url("https://thumbs.dreamstime.com/b/music-banner-mobile-smartphone-screen-music-application-sound-headphones-audio-voice-radio-beats-black-music-banner-220053649.jpg");
+    height: max-content;
+}
+
+/*============= TOP MENU =============*/
+
+.top-menu {
+    align-content: center;
+    align-items: center;
+    border-width: 4px;
+    background-color: #fff;
+    position: relative;
+    height: 100px;
+}
+
+.right-top-function {
+    position: absolute;
+    right: 0;
+    width: fit-content;
+}
+
+
+.inline-button {
+    background: linear-gradient(to bottom, lime 0%, chartreuse 100%);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
+.right-top-function a {
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+
+.left-top-icon a {
+    align-items: center;
+    font-size: 40px;
+    color: firebrick;
+}
+
+/*============= BOX =============*/
+
+/*======== area-box =============*/
+.area-box{
+    border: solid black 2px;
+    border-radius: 5px;
+    margin: 10px;
+    min-height: 200px;
+}
+
+.header-box {
+    background-color: yellowgreen;
+    border-bottom: solid black 2px;
+}
+
+.header-box-login {
+    background-color: gray;
+    border-bottom: solid black 2px;
+}
+
+.categories-login {
+    padding: 20px;
+}
+
+.body-box-login {
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+label {
+    min-width: 100px;
+}
+
+
+/*======== input-box =============*/
+.area-box input[type=text] {
+    border: solid black 2px;
+    color: black;
+    float: right;
+    width: 120px;
+}
+
+#login-btn {
+    width: auto;
+    border: solid black 2px;
+    background: linear-gradient(to bottom, lime 0%, chartreuse 100%);
+    float: right;
+    position: relative;
+}
+
+/*======== result-box =============*/
+
+/*============== artist-box =============*/
+.artist-box {
+    border: solid black 2px;
+    background-color: rgb(186, 184, 184);
+    min-height: 130px;
+    padding: 20px;
+    color: brown;
+}
+
+/*============== album-box =============*/
+.album-box {
+    border: solid black 2px;
+    background-color: rgb(186, 184, 184);
+    min-height: 130px;
+    padding: 20px;
+    color: brown;
+}
+
+.album-attr {
+    float: right;
+    padding: 20px;
+}
+
+/*============== song-box =============*/
+.song-box {
+    border: solid black 2px;
+    background-color: rgb(186, 184, 184);
+    min-height: 150px;
+    padding: 20px;
+    color: brown;
+}
+
+.song-audio {
+    float: right;
+}
+
+.song-attr {
+    float: right;
+    padding-right: 20px;
+}
+/*======== search-box ==========*/
+
+.search-box {
+    border-bottom: solid black 2px;
+}
+
+.search-box input[type=text] {
+    width: 250px;
+    border: solid black 2px;
+    color: black;
+    float: none;
+}
+
+#search-btn {
+    width: auto;
+    border: solid black 2px;
+    background: linear-gradient(to bottom, lime 0%, chartreuse 100%);
+    float: right;
+    position: relative;
+}
+
+
+
+.nav-link {
+    color: black;
+}
+
+/*============= FOOTER =============*/
+
+footer {
+    background: #3c3e3f;
+    padding: 1rem 2rem 3rem;
+}
+
+footer img {
+    height: auto; 
+    width: auto; 
+    max-width: 5rem; 
+    max-height: 5rem;
+}
+
+footer p, footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .svg-inline--fa {
+    font-size: 3rem;
+}
